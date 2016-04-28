@@ -32,10 +32,12 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+Private Const PrjName As String = "GitHub - Globaltech S.A."
+
 Private Sub cmdSalida_Click()
     End
 End Sub
 
 Private Sub Label1_Click()
-    MsgBox "Pruebas de Git", vbInformation, "Git Hub."
+    MsgBox "Pruebas de Git", vbInformation, PrjName
 End Sub
