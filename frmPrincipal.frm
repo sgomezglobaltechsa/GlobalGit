@@ -8,7 +8,7 @@ Begin VB.Form Form1
    LinkTopic       =   "Form1"
    ScaleHeight     =   3960
    ScaleWidth      =   5070
-   StartUpPosition =   3  'Windows Default
+   StartUpPosition =   2  'CenterScreen
    Begin VB.CommandButton cmdSalida 
       Caption         =   "Boton Salida"
       Height          =   495
