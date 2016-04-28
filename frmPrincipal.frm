@@ -9,6 +9,14 @@ Begin VB.Form Form1
    ScaleHeight     =   3960
    ScaleWidth      =   5070
    StartUpPosition =   2  'CenterScreen
+   Begin VB.TextBox Text1 
+      Height          =   495
+      Left            =   240
+      TabIndex        =   2
+      Text            =   "Text1"
+      Top             =   1200
+      Width           =   4695
+   End
    Begin VB.CommandButton cmdSalida 
       Caption         =   "Boton Salida"
       Height          =   495
@@ -19,6 +27,7 @@ Begin VB.Form Form1
    End
    Begin VB.Label Label1 
       Alignment       =   2  'Center
+      BackColor       =   &H8000000D&
       Caption         =   "Hola Mundo"
       Height          =   495
       Left            =   240
