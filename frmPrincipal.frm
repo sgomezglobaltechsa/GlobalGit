@@ -14,7 +14,7 @@ Begin VB.Form Form1
       Height          =   495
       Left            =   240
       TabIndex        =   2
-      Text            =   "Ahora si me esta empezando a gustar"
+      Text            =   "Ahora si me esta empezando a gustar!!!"
       Top             =   1200
       Width           =   4695
    End
