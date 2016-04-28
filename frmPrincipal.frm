@@ -35,7 +35,7 @@ Attribute VB_Exposed = False
 Private Const PrjName As String = "GitHub - Globaltech S.A."
 
 Private Sub cmdSalida_Click()
-    If MsgBox("Desea salir del programa", vbYesNo, PrjName) = vbYes Then
+    If MsgBox("Desea salir del programa...", vbYesNo, PrjName) = vbYes Then
         End
     End If
 End Sub
