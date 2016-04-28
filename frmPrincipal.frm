@@ -10,10 +10,11 @@ Begin VB.Form Form1
    ScaleWidth      =   5070
    StartUpPosition =   2  'CenterScreen
    Begin VB.TextBox Text1 
+      Alignment       =   2  'Center
       Height          =   495
       Left            =   240
       TabIndex        =   2
-      Text            =   "Text1"
+      Text            =   "Ahora si me esta empezando a gustar"
       Top             =   1200
       Width           =   4695
    End
